@@ -2,7 +2,7 @@ var panel = $("#quiz-area");
 
 // Question set
 var questions = [{
-  question: "Which actor played a role in both 'Twin Peaks' and 'The X-Files'?",
+  question: "Which actor played a role in both \"Twin Peaks\" and \"The X-Files\"?",
   answers: ["Winona Ryder", "Kyle McLaughlin", "David Duchovny", "Sheryl Lee"],
   correctAnswer: "David Duchovny"
 }, {
@@ -10,7 +10,7 @@ var questions = [{
   answers: ["8 minutes, 20 seconds", "5 minutes, 10 seconds", "1 minute", "56 minutes, 9 seconds"],
   correctAnswer: "8 minutes, 20 seconds"
 }, {
-  question: "Which philosopher is best known for the saying, 'I think, therefore, I am.'"
+  question: "Which philosopher is best known for the saying, \"I think, therefore, I am.\"?",
   answers: ["Jacques Derrida", "Michel Foucault", "Rene Descartes", "Mulla Sadra"],
   correctAnswer: "Rene Descartes"
 }, {
@@ -121,15 +121,6 @@ var game = {
 
     $.each($("input[name='question-6']:checked"), function() {
       if ($(this).val() === questions[6].correctAnswer) {
-        game.correct++;
-      }
-      else {
-        game.incorrect++;
-      }
-    });
-
-    $.each($("input[name='question-7']:checked"), function() {
-      if ($(this).val() === questions[7].correctAnswer) {
         game.correct++;
       }
       else {
