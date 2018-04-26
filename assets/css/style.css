@@ -12,6 +12,7 @@ body {
   width: 960px;
   min-height: 80%;
   box-sizing: border-box;
+  border-radius: 20px;
   padding: 5% 0;
   margin: 5% auto;
   background-color: lightblue;
