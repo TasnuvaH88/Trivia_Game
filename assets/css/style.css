@@ -29,16 +29,18 @@ button {
   margin: 10px auto 0;
   font-size: 42px;
   cursor: pointer;
+  border-radius: 12px;
   background: transparent;
-  border: 0;
+  font-family: 'Love Ya Like A Sister';
+  
 }
 
 h1 {
   margin-bottom: 50px;
-  font-family: Arial, sans-serif;
+  font-family: 'Love Ya Like A Sister', cursive;
   font-size: 6.5em;
   font-weight: bold;
-  color: blue;
+  color: steelblue;
 }
 
 h2 {
@@ -59,6 +61,8 @@ h3 {
 
 #quiz-area h2 {
   margin-top: 50px;
+  font-family: 'Englebert', sans-serif;
+
 }
 
 button:hover {
